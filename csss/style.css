@@ -1,0 +1,1024 @@
+
+.perant1 .head .head1{
+    height: 30px;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    background-color:rgb(0, 170, 255);
+    display: flex;
+}
+.perant1 .head{
+    display: flex;
+    flex-direction:column;
+}
+.perant1 .head .head1 ul{
+    display: flex;
+    list-style: none;
+    gap: 90px;
+    margin: 0;
+    padding-top: 5px;
+    position: relative;
+}
+.perant1 .head1 .fa-brands{
+    color: #ffffff;
+    padding-top: 7px;
+}
+.perant1 .headleft{
+    display: flex;
+    gap: 70px;
+    margin-left: 200px;
+}
+.perant1 .head .head1 li{
+    position: relative;
+    color: #ffffff;
+}
+.perant1 .head .head1 li::after{
+    transition: .5s;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -20px;
+    top: 15;
+    height: 5px;
+    content: "";
+    background-color: #20159f;
+    font-size: large;
+    transform: translateY(-50%);
+    top: 20px;
+    z-index: 1px;
+    transform: translate(-5px,0);
+    height: 0px;
+}
+.perant1 .head .head1 li:hover::after{
+    background-color: rgb(15, 15, 127);
+    height: 20px;
+    top: 0;
+}
+.perant1 li::before{
+    transition: .5s;
+    width: 2px;
+    position: absolute;
+    height: 0px;
+    content: "";
+    background-color: #180d75;
+    transform: translateY(-50%);
+    top:0;
+    left: auto;
+    right: 0px;
+    bottom: 0px;;
+    z-index: 1px;
+    transform: translate(5px,0);
+}
+.perant1 li:hover::before{
+    background-color: rgb(15, 23, 117);
+    height: 20px;
+}
+.perant1 .head .fa-brands:hover{
+   transform: rotateY(180deg);
+   color: #0b156d;
+}
+/*/////////////////////////////////////////*/
+.perant1 .head .head2{
+    height: 80px;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    background-color: rgb(0, 195, 255);
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    gap: 40PX;
+}
+.perant1 .head .head2 a{
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+}
+.perant1 .head2 .fa-solid{
+    color: #ffffff;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: larger;
+    margin-left: 50px;
+}
+.perant1 .head2 .list{
+    margin-left: -50px;
+    padding: 30px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.perant1 .head2 .hidden{
+    visibility: hidden;
+    box-sizing: border-box;
+}
+.perant1 .head2 .img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url("../images\ p2/back.jpg");
+    background-size: cover;
+    margin-left: -200px;
+    margin-top: 5px;
+}
+.perant1 .head2 .logo{
+    display: flex;
+}
+.perant1 .list a::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border: 2px solid transparent;
+    bottom: -10px;
+    right: -10px;
+    border-bottom-color:rgba(218, 165, 32, 0) ;
+    border-right-color:rgba(218, 165, 32, 0) ;
+    border-radius: 5px 5px 5px 5px;
+    transition: .5s;
+}
+.perant1 .list a::before{
+    content: "";
+    position: absolute;
+    width: 100;
+    height: 50px;
+    border: 2px solid transparent;
+    left: -10px;
+    top: -10px;
+    border-left-color:rgba(218, 165, 32, 0) ;
+    border-top-color:rgba(218, 165, 32, 0) ;
+    transition: .5s;
+}
+.perant1 .list a:hover:after{
+    width: 100%;
+    height: 100%;
+    border-bottom-color:navy ;
+    border-right-color:navy ;
+}
+.perant1 .list a:hover::before{
+    width: 100%;
+    height: 100%;
+    border-left-color:navy ;
+    border-top-color:navy ;
+}
+.perant1 .head .icons .fa-solid:hover{
+    transform: translateY(-5px);
+}
+.perant1 .head2 .hidden{
+    visibility: hidden;
+    opacity: 0;
+    border: 2px solid rgb(0, 208, 255);
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 10px;
+    background-color: rgb(0, 166, 255);
+    border-radius: 20px;
+    z-index:33;
+    position: absolute;
+}
+.perant1 .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.perant1 .child1{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.perant1 .child2{
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+.perant1 .child1 ul{
+    display: flex;
+    flex-direction:column;
+   list-style: none;
+   padding: 0;
+   margin-top: 10px;
+   gap: 30px;
+}
+.perant1 .child2 ul{
+    display: flex;
+   padding: 0;
+   flex-direction: column;
+   list-style: none;
+   margin-left: 120px;
+   gap: 30px;
+}
+.perant1 .child2 h3{
+    margin-top: -253;
+    margin-left: 140px;
+    color: #0000008a;
+    font-style: italic;
+}
+.perant1 .hidden h3{
+     font-style: italic;
+     color: #233ed8ef;
+}
+.perant1 .hidden li{
+    color: #ffffff;
+    font-size: medium;
+}
+.perant1 .child1 li{
+    white-space: nowrap;
+    font-size: medium;
+}
+.perant1 .child2 li{
+    white-space: nowrap;
+    font-size: medium;
+}
+.perant1 .blog:focus + .hidden{
+    visibility:visible;
+    opacity: 1;
+    z-index: 5;
+}
+.perant1 .hidden li:hover{
+    font-weight: 500;
+    font-size: larger;
+    color: blueviolet;
+}
+/*//////////////////////////////////////////////*/
+.perant1 .head3{
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    text-align: center;
+}
+.perant1 .head3 h3{
+    color: #ddd;
+    margin-top: 7px;
+}
+.perant1 .head3 a{
+    color: #3171d1;
+}
+.perant1 .head3 a:hover{
+    font-weight: 700;
+    color: burlywood;
+    transform: translateY(-3px);
+    font-size: larger;
+}
+/*////////////////////////////////////*/
+.perant1{
+    background-image:url("../images\ p2/back2.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+}
+.perant1 .old_child{
+    width: 400px;
+    height: 400px;
+    text-align:center;
+    align-items:center;
+    margin-left: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 60px;
+}
+.perant1 .old_child h2{
+    color: #0084ff;
+    font-size: 48px;
+    font-weight: 900;
+    font-family:'Tangerine', serif;
+}
+.perant1 .old_child p{
+    color: #0000ff8a;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.perant1 h1{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+    color: #0000ff8a;
+    font-weight: 900;
+}
+.perant1 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(0, 174, 255);
+    outline-color:1px solid rgb(0, 107, 146);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+     font-style: normal;
+    border: #ffffff;
+}
+.perant1 button:hover{
+    width: 130px;
+    height: 50px;
+    transform: rotateY(-3px);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 174, 255);
+    border: 1px solid rgb(0, 174, 255);
+
+}
+/*////////////////////////*/
+.perant2 .child{
+    width: 350px;
+    height: 500px;
+    border: 2px solid rgb(0, 195, 255);
+    display: flex;
+ }
+.perant2{
+    display: flex;
+    min-height: 700px;
+    padding-top: 80px;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #ffffff, #36d9fa);
+}
+.perant2 h3{
+    padding-top: 450px;
+    position: relative;
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+        font-size: larger;
+    margin-left: 100px;
+    text-shadow: #00ddff 1px 1px 2px, #00ddff 0px 0px 1px;
+}
+.perant2 h4{
+    position: relative;
+    visibility: hidden;
+    cursor: pointer;
+    color: #00ddff;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style:light;
+  font-size: large;
+    margin-top:500px ;
+    display: flex;
+    margin-left:-140px;
+    text-shadow: #ddddff 1px 1px 2px, #ddddff 0px 0px 1px;
+
+}
+@keyframes change{
+    from{
+       transform: translateY(0);
+    }
+    to{
+       transform: translateY(-50px);
+    }
+}
+.perant2 .child:hover h3{
+    animation:change .5s forwards;
+}
+.perant2 .child:hover h4{
+    animation:change .5s forwards;
+    visibility:visible;
+}
+.perant2 .child1{
+     background-image:url("../images\ p2/back4.jpg");
+    background-size: cover;
+}
+.perant2 .child2{
+    background-image: url("../images\ p2/back6.jpg");
+    background-size: cover;
+}
+.perant2 .child3{
+    background-image: url("../images\ p2/back9.jpg");
+    background-size: cover;
+}
+/*/////////////////////////////*/
+
+.perant3 .head{
+    display: flex;
+    gap: 40px;
+}
+.perant3 .head .head_left{
+    margin-left:800px;
+    display: flex;
+    gap: 40px;
+}
+.perant3 .line h3{
+    color: #00bbff;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.perant3 h3{
+    color: #2b3dff;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    margin-top: 20px;
+}
+.perant3 hr{
+    height: 10px;
+    border-radius: 5px;
+    margin-top: -10px;}
+
+.perant3 .line hr{
+    background-color: rgb(20, 43, 220);
+}
+.perant3 .childs{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.perant3 .price {
+    display: flex;
+    gap: 140px;
+    justify-content: space-evenly;
+}
+.perant3 .front ,.perant3 .back , .perant3 .child{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgb(0, 207, 253);
+    position: absolute;
+    border-radius: 10px;
+    transition: .5s;
+    display: flex;
+}
+.perant3 h2{
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    color: #ffffff;
+     text-align: center;
+}
+.perant3 .head h2{
+    color: #0000ff8a;
+    font-family: "Dancing Script", cursive;
+     font-optical-sizing: auto;
+    font-weight: 600;
+  font-style: normal;
+  text-shadow: #ddddff 1px 1px 2px, #ddddff 0px 0px 1px;
+}
+.perant3 .child .fa-solid{
+    font-size: xx-large;
+    font-weight: 1000;
+    color: rgb(0, 229, 255);
+   margin-top: 15px;
+    height: 50px;
+}
+.perant3 .icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+     margin-top: 300px;
+     align-items: center;
+    background-color: #ffffff;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 164, 253);
+}
+.perant3 .child .fa-solid:hover{
+    color: rgb(8, 20, 103);
+    transform: translateY(-5px);
+}
+.perant3 .child{
+    position: relative;
+    transform-style: preserve-3d;
+}
+.perant3 .front{
+    z-index: 1;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);   
+}
+.perant3 .back{
+    position: absolute;
+}
+.perant3 .front{
+    position: absolute;
+    
+}
+.perant3 .child:hover{
+    transform: rotateY(180deg);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.perant3 .child1 .front{
+    background-image: url("../images\ p2/back10.jpg");
+    background-size: cover;
+}
+.perant3 .child2 .front{
+    background-image: url("../images\ p2/back11.jpg");
+    background-size: cover;
+}
+.perant3 .child3 .front{
+    background-image: url("../images\ p2/back12.jpg");
+    background-size: cover;
+}
+.perant3 .child4 .front{
+    background-image: url("../images\ p2/back13.jpg");
+    background-size: cover;
+}
+.perant3 .child1 .back{
+    background-image: url("../images\ p2/back14.jpg");
+    background-size: cover;
+}
+.perant3 .child2 .back{
+    background-image: url("../images\ p2/back15.jpg");
+    background-size: cover;
+}
+.perant3 .child3 .back{
+    background-image: url("../images\ p2/back16.jpg");
+    background-size: cover;
+}
+.perant3 .child4 .back{
+    background-image: url("../images\ p2/back17.jpg");
+    background-size: cover;
+}
+.perant3{
+    background: linear-gradient(to bottom, #ffffff, #36d9fa, #7ce9ff);
+}
+/*/////////////////////////////////////////*/
+.perant4{
+    max-height: 600px;
+    text-align: center;
+   border: 2px solid rgb(255, 255, 255);
+   background: linear-gradient(to bottom, #ffffff, #36d9fa, #7ce9ff);
+}
+.perant4 .child{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 500px;
+    transform:translate(-50,-50);
+    margin: 0 auto;
+}
+.perant4 .child .img{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(105, 155, 255);
+    border-radius:50%;
+    background-image: url("../images\ p2/back18.jpg");
+    background-size: cover;
+}
+.perant4 .childs .fa-solid{
+    color:navy;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.perant4 .child .image {
+    display: flex;
+    margin-left: 120px;
+    gap: 5px;
+}
+.perant4 h2{
+    color: blue;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+.perant4 p{
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.perant4 .img1 p{
+    color:navy;
+}
+.perant4 .child1{
+    display: flex;
+}
+.perant4 h3{
+    color: navy;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-style: italic;
+    text-shadow: #ffffff 2px 1px 2px, #ffffff 0px 0px 1px;
+
+}
+/*/////////////////////////////////////////*/
+.perant5 .fa-solid,.perant5 .fa-regular{
+    font-size:xx-large;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.perant5 .back .fa-solid,.perant5 .back .fa-regular{
+    margin-top: 300px;
+    color: #ffffff;
+    gap: 20px;
+    color: #00bbff;
+}
+
+.perant5 .child, .perant5 .back, .perant5 .front{
+    gap: 20px;
+    padding: 20px;
+    width: 260px;
+    height: 350px;
+    border: 1px solid rgb(105, 210, 255);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.perant5 .child{
+    
+    position: relative;
+    overflow: hidden;
+}
+.perant5 .front{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: .5s;
+}
+.perant5 .back{
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(105, 118, 255);
+    border-radius: 10px;
+    transform:translateY(-100%);
+    transition:transform  0.5s ease;
+}
+.perant5 .child:hover .back{
+    transform: translateY(0);
+}
+.perant5 .childs{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+.perant5 .child1 .front{
+    background-image: url("../images\ p2/back19.jpg");
+    background-size: cover;
+}
+.perant5 .child2 .front{
+    background-image: url("../images\ p2/back21.jpg");
+    background-size: cover;
+}
+.perant5 .child3 .front{
+    background-image: url("../images\ p2/back23.jpg");
+    background-size: cover;
+}
+.perant5 .child4 .front{
+    background-image: url("../images\ p2/back25.jpg");
+    background-size: cover;
+}
+.perant5 .child1 .back{
+    background-image: url("../images\ p2/back20.jpg");
+    background-size: cover;
+}
+.perant5 .child2 .back{
+    background-image: url("../images\ p2/back22.jpg");
+    background-size: cover;
+}
+.perant5 .child3 .back{
+    background-image: url("../images\ p2/back24.jpg");
+    background-size: cover;
+}
+.perant5 .child4 .back{
+    background-image: url("../images\ p2/back26.jpg");
+    background-size: cover;
+}
+/*/////////////////////////////////////////*/
+.perant5 h2{
+    color:navy;
+    font-style: italic;
+   text-shadow: #7ce9ff 2px 1px 2px, #4ad6f3 0px 0px 1px;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+.perant5 h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    text-shadow: #7ce9ff 2px 1px 2px, #4ad6f3 0px 0px 1px;
+    font-size: larger;
+    font-weight: 500;
+}
+.perant5{
+    background: linear-gradient(to bottom, #ffffff, #36d9fa, #7ce9ff);
+}
+.perant5 .text{
+    display: flex;
+    flex-direction:row;
+    gap: 100px;
+    padding: 20px;
+    width:80%;
+    margin: 0 auto;
+    margin-left: 14%;
+}
+.perant5 .text1{
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 310px;
+}
+.perant5 .text1 h3{
+    margin-left: -100px;
+}
+.perant5 .fa-solid:hover, .perant5 .fa-regular:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: #0084ff 2px 1px 2px, #0084ff 2px 2px 1px;
+}
+/*/////////////////////////////////////////*/
+.perant6 .childs{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+    margin-left: 5%;
+}
+.perant6 .child{
+    width: 500px;
+    height: 600px;
+}
+.perant6 .child .img1{
+width: 400px;
+height: 400px;
+background-image: url("../images\ p2/back27.jpg");
+background-size: cover;
+}
+.perant6 .child .img2{
+    width: 400px;
+    height: 400px;
+    background-image: url("../images\ p2/back29.jpg");
+    background-size: cover;
+}
+.perant6 .child .img3{
+    width: 400px;
+    height: 400px;
+    background-image: url("../images\ p2/back30.jpg");
+    background-size: cover;
+}
+.perant6 .child:hover{
+    transform: translateY(-10px);
+    transition: .1s;
+}
+.perant6 .child .img1:hover{
+    transition: .2s;
+}
+.perant6 .child .img2:hover{
+    transition: .2s;
+}
+.perant6 .child .img3:hover{
+    transition: .2s;
+}
+.perant6 .child .text{
+    padding: 20px;
+}
+.perant6{
+    background: linear-gradient(to bottom, #ffffff, #70e7ff, #7ce9ff);
+    height: 102vh;
+}
+.perant6 h3{
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.perant6 .child:hover h3{
+    color:navy;
+    font-weight: 600;
+    transition: .2s;
+} 
+.perant6 h4{
+    color: #0088ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.perant6 p{
+    color: #2f2fff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.perant6 h1{
+    color: #3933f4;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: #7ce9ff 4px 1px 2px, #4ad6f3 4px 0px 1px;
+}
+/*/////////////////////////////////////////*/
+.perant7 .childs{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    width: 80%;
+    padding: 100px 100px;
+    margin-left: 100px;
+}
+.perant7 .child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: -5%;
+}
+
+.perant7 .icons{
+    position: relative;
+    height: 50px;
+    top: 0;    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perant7 .prim{
+    color: rgb(0, 208, 255);
+    position: relative;
+    font-size: xx-large;
+    font-weight: 700;
+    transition: 0.1s;
+}
+.perant7 .hidden{
+    color:navy;
+    position: absolute;
+    font-size: xx-large;
+    font-weight: 700;
+    top: 100%;
+    transition: 0.1s;
+}
+.perant7{
+    background: linear-gradient(to bottom, #ffffff, #70e7ff, #7ce9ff);
+    box-sizing: border-box;
+}
+.perant7 p{
+    color:navy;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.perant7 .child:hover p{
+    color: #0088ff;
+    font-weight: 600;
+    transition: .2s;
+}
+.perant7 h3{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.perant7 .child:hover .prim{
+    transform: translateY(-100%);
+    opacity: 0;
+}
+.perant7 .child:hover .hidden{
+    transform: translateY(-100%);
+    opacity: 1;
+}
+/*/////////////////////////////////////////*/
+.perant8{
+    background: linear-gradient(to bottom, #ffffff, #70e7ff, #0660e8);
+     
+}
+.perant8 .head{
+    display: flex;
+    gap: 50px;
+}
+.perant8 .head h2{
+    color:navy;
+    font-style: italic;
+    text-shadow: #7ce9ff 2px 1px 2px, #4ad6f3 0px 0px 1px;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.perant8 .head input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: medium;
+    border: 1px solid rgb(69, 28, 255);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.perant8 .sub{
+    margin-left: 100px;
+}
+.perant8 .head input:focus{
+    outline: none;
+    border-color: rgb(0, 204, 255);
+}
+.perant8 .icons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.perant8 .icons .fa-brands{
+    color: #2a4dfa;
+    font-size: xx-large;
+    font-weight: 700;
+    padding: 10px;}
+.perant8 .icons .fa-brands:hover{
+    color: rgb(0, 174, 255);
+    transform: translateY(-5px);
+}
+.perant8 .childs{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    width: 90%;
+    padding: 20px;
+    margin-left: 5%;
+}
+.perant8 .child1 .logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("../images\ p2/back31.jpg");
+    background-size: cover;
+}
+.perant8 .child p{
+    color: navy;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.perant8 .child p:hover{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    transition: .05s;
+}
+.perant8 button{
+    width: 120px;
+    height: 44px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(0, 166, 255);
+    border: 1px solid rgb(94, 207, 255);
+        font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+     font-style: normal;
+     transition: .1s;
+}
+.perant8 button:hover{
+    width: 125px;
+    height: 45px;
+    transform: rotateY(-3deg);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 166, 255);
+}
+.perant8 h2{
+    color: #0904ad;
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: #7ce9ff 4px 1px 2px, #4ad6f3 4px 0px 1px;
+    font-style: italic;
+}
+.perant8 h3{
+    color: #ffffff;
+    font-size: large;
+    font-weight: 700;
+    text-shadow: #7ce9ff 4px 1px 2px, #4ad6f3 4px 0px 1px;
+    font-style: italic;
+}
+.perant8 p:hover h3{
+    color: navy;
+   
+}
+.perant8 hr{
+    background-color: rgb(20, 43, 220);
+    height: .5px;
+
+}
+.perant8 .sub p{
+    color: #00ffff;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: #3950ff 2px 1px 2px, #3b90ff 0px 0px 1px;
+    
+}
